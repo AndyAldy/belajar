@@ -1,0 +1,3 @@
+D:/Untuk_ke_Gameloft/belajar/build/CMakeFiles/AplikasiSaya.dir
+D:/Untuk_ke_Gameloft/belajar/build/CMakeFiles/ALL_BUILD.dir
+D:/Untuk_ke_Gameloft/belajar/build/CMakeFiles/ZERO_CHECK.dir
