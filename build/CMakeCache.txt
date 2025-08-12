@@ -15,16 +15,13 @@
 ########################
 
 //Value Computed by CMake
-BelajarCPP_BINARY_DIR:STATIC=D:/Untuk_ke_Gameloft/belajar/build
+AplikasiDatabaseCanggih_BINARY_DIR:STATIC=D:/Untuk_ke_Gameloft/belajar/build
 
 //Value Computed by CMake
-BelajarCPP_SOURCE_DIR:STATIC=D:/Untuk_ke_Gameloft/belajar
+AplikasiDatabaseCanggih_SOURCE_DIR:STATIC=D:/Untuk_ke_Gameloft/belajar
 
 //Path to a program.
 CMAKE_AR:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lib.exe
-
-//No help, variable specified on the command line.
-CMAKE_BUILD_TYPE:STRING=Debug
 
 //Semicolon separated list of supported configuration types, only
 // supports Debug, Release, MinSizeRel, and RelWithDebInfo, anything
@@ -86,7 +83,7 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /INCREMENTAL
 CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/BelajarCPP
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/AplikasiDatabaseCanggih
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/link.exe
@@ -121,22 +118,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=BelajarCPP
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION:STATIC=1.0
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_MAJOR:STATIC=1
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_MINOR:STATIC=0
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_PATCH:STATIC=
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_TWEAK:STATIC=
+CMAKE_PROJECT_NAME:STATIC=AplikasiDatabaseCanggih
 
 //RC compiler
 CMAKE_RC_COMPILER:FILEPATH=rc

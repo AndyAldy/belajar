@@ -1,8 +1,7 @@
 #include <iostream>
-#include "koneksi.h"
-#include "mysql-cppconn/jdbc/mysql_driver.h"
-#include "mysql-cppconn/jdbc/cppconn/exception.h"
-
+#include "../include/koneksi.h"
+#include "../include/jdbc/mysql_driver.h"
+#include "../include/jdbc/cppconn/exception.h"
 
 // --- FUNGSI "MANAJER & PELAYAN" ---
 int main() {

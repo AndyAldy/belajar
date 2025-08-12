@@ -2,11 +2,11 @@
 #include <stdexcept>
 
 // Sertakan "kontrak" kita sendiri
-#include "koneksi.h"
+#include "../include/koneksi.h"
 
 // Sertakan header dari MySQL Connector yang dibutuhkan untuk implementasi
-#include "mysql-cppconn/jdbc/mysql_driver.h"
-#include "mysql-cppconn/jdbc/cppconn/exception.h"
+#include "../include/jdbc/mysql_driver.h"
+#include "../include/jdbc/cppconn/exception.h"
 
 // --- IMPLEMENTASI FUNGSI "KOKI" ---
 // Ini adalah kode yang sama persis seperti sebelumnya,

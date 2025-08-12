@@ -3,7 +3,7 @@
 
 // Kita perlu menyertakan header dari MySQL Connector di sini
 // karena kita akan menggunakan tipe data 'sql::Connection'
-#include "mysql-cppconn/jdbc/cppconn/connection.h"
+#include "jdbc/cppconn/connection.h"
 
 // Deklarasi fungsi "koki" kita.
 // Ini adalah janji bahwa di suatu tempat akan ada fungsi
