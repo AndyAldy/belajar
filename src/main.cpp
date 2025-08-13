@@ -6,6 +6,7 @@ int main() {
 
     if (mysql_library_init(0, NULL, NULL)) {
         std::cerr << "Tidak bisa menginisialisasi library MariaDB" << std::endl;
+        mysql_library_end();
         return 1;
     }
 
