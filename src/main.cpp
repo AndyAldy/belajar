@@ -1,25 +1,24 @@
-#include <iostream>
 #include "../include/koneksi.h"
-#include "../include/jdbc/mysql_driver.h"
-#include "../include/jdbc/cppconn/exception.h"
+#include <iostream>
 
-// --- FUNGSI "MANAJER & PELAYAN" ---
 int main() {
     std::cout << "Aplikasi dimulai." << std::endl;
 
-    // Memesan koneksi dari "dapur"
-    sql::Connection* con = connectToDatabase();
-
-    // Memeriksa hasilnya dan berinteraksi dengan pengguna
-    if (con) { // 'if (con)' adalah cara singkat untuk 'if (con != nullptr)'
-        std::cout << "Koneksi ke database berhasil dibuat!" << std::endl;
-        delete con;
-        std::cout << "Koneksi ditutup." << std::endl;
-    } else {
-        std::cout << "Gagal menyambungkan ke database. Cek log teknis." << std::endl;
+    if (mysql_library_init(0, NULL, NULL)) {
+        std::cerr << "Tidak bisa menginisialisasi library MariaDB" << std::endl;
         return 1;
     }
 
+    MYSQL* con = connectToDatabase();
+
+    if (con) {
+        std::cout << "Koneksi ke database berhasil!" << std::endl;
+        mysql_close(con);
+    } else {
+        std::cout << "Gagal menyambungkan ke database." << std::endl;
+    }
+
+    mysql_library_end();
     std::cout << "Aplikasi selesai." << std::endl;
     return 0;
 }
